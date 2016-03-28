@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="budgetApp">
+<head>
+	<title>Budget App</title>
+	<!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	
+	<!-- <script type="text/javascript" src="budget-app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="budget-app/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>	
+	<script type="text/javascript" src="budget-app/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>	
+	<script type="text/javascript" src="budget-app/bower_components/ng-tags-input/ng-tags-input.min.js"></script>	-->	
+</head>
+<body>
+	<div ng-controller="BudgetAppCtrl">
+		<ui-view></ui-view>
+	</div>
+</body>
+<!-- INCLUDE APPLICATION SPECIFIC CSS AND JAVASCRIPT -->
+<script type="text/javascript" src="app/app.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="app/accounts/budgetapp-controller.js"></script>
+
+</html>
